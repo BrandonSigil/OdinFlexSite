@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.topnav {
+    padding: 15px 50px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.innernav {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex: auto;
+    flex-direction: row;
+}
+
+.logo {
+    margin-left: 50px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    flex: 1;
+}
+
+.navlinks {
+    flex: 1;
+    font-size: .75rem;
+
+}
+
+.navlinks ul {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    align-items: right;
+}
+
+.navlinks li {
+    align-items: center;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 100px 50px;
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.hero .herotext {
+    padding: 0px 50px;
+    width: 50%;
+    flex: 1 1 0%;
+}
+
+.hero h1 {
+    margin: 0 0 15px 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.hero p {
+    line-height: 1.3;
+    margin-bottom: 15px;
+    color: #e5e7ebd3;
+    font-size: 1rem;
+}
+
+button {
+    padding: 6px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 1rem;
+}
+.hero .heroimg {
+background-color: grey;
+padding: 80px 80px;
+}
+
+.info {
+    padding: 25px 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.ctainfo {
+    margin-top: 50px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 1.75rem;
+}
+
+.info .infobox {
+    flex: 1 1 0%;
+    padding: 25px 0;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.info p {
+    font-size: .8rem;
+    color: #0000009c;
+    width: 125px;
+
+}
+
+.info .tempbox {
+    margin: auto;
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    border: #3882F6;
+    border-width: 3px;
+    border-radius: 15px;
+    border-style: solid;
+    margin-bottom: 15px;
+}
+
+.quotebox {
+    margin-top: 50px;
+    padding: 100px 250px;
+    background-color: rgba(128, 128, 128, 0.521);
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-size: 1.6rem;
+    font-style: italic;
+    line-height: 1.35;
+}
+
+.thor {
+    margin-top: 15px;
+    flex-direction: column-reverse;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
+.ctacont {
+    background-color: white;
+    padding: 70px 175px;
+}
+
+.signupbox {
+    max-width: 1000px;
+    display: flex;
+    gap: 75px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 35px 25px;
+}
+
+.ctatext {
+    color: rgba(255, 255, 255, 0.767);
+    line-height: 1.35;
+}
+
+.ctatext b {
+    font-size: 1.25rem;
+    color: white;
+}
+
+.ctacont button
+ {
+    border-style: solid;
+    border-color: white;
+    flex: 1;
+}
+
+footer {
+    padding: 25px 50px;
+    display: flex;
+    background-color: #1F2937;
+    color: rgba(255, 255, 255, 0.75);
+    justify-content: center;
+    font-size: .75rem;
+}
+
